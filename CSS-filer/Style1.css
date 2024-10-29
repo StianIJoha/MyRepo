@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 3.5; 
+    margin : 10;
+    background-image: url()
+}
+h1 {
+    background-color: rgb(183, 228, 104);
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+h2 {
+    text-decoration-line: underline;
+    text-decoration-color: purple;
+    text-decoration-thickness: 4px;
+}
+table {
+    border: solid black;
+    border-collapse: collapse;
+}
+tr {
+    border-bottom : solid black;
+}
+th, td {
+    border: dashed black;
+    padding: 1em;
+}
+tbody tr:nth-child(odd) {
+    background-color: aqua;
+
+}

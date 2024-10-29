@@ -1,0 +1,148 @@
+/* Generell stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: square;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-section {
+    background-color: #f4f4f4;
+    text-align: center;
+    text-wrap: stable;
+    padding: 20px 50px;
+}
+
+h1, h2 {
+    color: #de1616;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 75px;
+    margin: 10px;
+    text-align: right;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.buy-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #218838;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Handlekurv melding */
+.cart-message {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffc107;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+/*body {
+    font-family: Arial, sans-serif;
+    line-height: 3.5; 
+    margin : 10;
+    background-image: url(../CSS-filer/Bilder-CSS/Donkeh.jpg);
+    background-size: 3%; 
+    background-position: center; 
+}
+h1 {
+    background-color: rgb(183, 228, 104);
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+h2 {
+    text-decoration-line: underline;
+    text-decoration-color: purple;
+    text-decoration-thickness: 4px;
+}
+table {
+    border: solid black;
+    border-collapse: collapse;
+}
+tr {
+    border-bottom : solid black;
+}
+th, td {
+    border: dashed black;
+    padding: 1em;
+}
+tbody tr:nth-child(odd) {
+    background-color: aqua;
+
+}

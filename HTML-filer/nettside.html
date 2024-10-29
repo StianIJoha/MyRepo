@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Butikk</title>
+    <link rel="stylesheet" href="../CSS-filer/Style2.css">
+</head>
+<body>
+    <!-- Navigasjon -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Hjem</a></li>
+                <li><a href="#products">Produkter</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hjemseksjon -->
+    <section id="home" class="hero-section">
+        <h1>Velkommen til Min Butikk</h1>
+        <p>Utforsk vårt utvalg av spennende produkter.</p>
+    </section>
+
+    <!-- Produkter Seksjon -->
+    <section id="products">
+        <h2>Våre Produkter</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="../Bilder-CSS/Donkeh.jpg" alt="Produkt 1">
+                <h3>Produkt 1</h3>
+                <p>Beskrivelse av produkt 1. <br>Pris: 299 NOK</p>
+                <button class="buy-button" onclick="addToCart('Produkt 1')">Kjøp</button>
+            </div>
+
+            <div class="product">
+                <img src="../Bilder-CSS/Donkeh.jpg" alt="Produkt 2">
+                <h3>Produkt 2</h3>
+                <p>Beskrivelse av produkt 2. <br>Pris: 499 NOK</p>
+                <button class="buy-button" onclick="addToCart('Produkt 2')">Kjøp</button>
+            </div>
+
+            <div class="product">
+                <img src="../Bilder-CSS/Donkeh.jpg" alt="Produkt 3">
+                <h3>Donkeh</h3>
+                <p>Et esel for fremtiden <br>Pris: 1999 NOK</p>
+                <button class="buy-button" onclick="addToCart('Produkt 3')">Kjøp</button>
+            </div>
+
+            <div class="product">
+                <img src="../Bilder-CSS/Donkeh.jpg" alt="Produkt 4">
+                <h3>Donkeh 2</h3>
+                <p>Donkeh for 2 <br>Pris: 399999 NOK</p>
+                <button class="buy-button" onclick="addToCart('Produkt 4')">Kjøp</button>
+            </div>
+
+            <div class="product">
+                <img src="../Bilder-CSS/Donkeh.jpg" alt="Produkt 5">
+                <h3>Donkeh 2</h3>
+                <p>Donkeh for 2 <br>Pris: 399999 NOK</p>
+                <button class="buy-button" onclick="addToCart('Produkt 5')">Kjøp</button>
+                <script> 
+                    let buy-button = buy;
+                    alert("Du har lagt til i handlekurven din");
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt Seksjon -->
+    <section id="contact">
+        <h2>Kontakt Oss</h2>
+        <p>Har du spørsmål? Send oss en melding nedenfor.</p>
+        <form>
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Melding:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Melding</button>
+        </form>
+    </section>
+
+    <script src="../../../../../IdeaProjects/Oblig 1/src/Oblig1.java"></script>
+</body>
+</html>
